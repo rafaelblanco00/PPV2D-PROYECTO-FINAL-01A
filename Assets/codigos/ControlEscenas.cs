@@ -1,23 +1,20 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class ControlEscenas:MonoBehaviour
+public class ControlEscenas : MonoBehaviour
 {
-    public string QueEscena;
-    public string EscenaActual;
-
-    public void CargarEscena(string queEscena)
+    private void Awake()
     {
-        print("Escena cargada");
+        print("Control de Escenas - Activado");
     }
 
-    public void EscenaSiguiente()
+    public void CargarEscenaInicio()
     {
-        print("Ir a escena siguiente");
+        SceneManager.LoadScene("inicio");
     }
 
-    public void EscenaAnterior()
+    public void CargarEscenaNivel()
     {
-        print("Ir a escena anterior");
+        SceneManager.LoadScene("nivel");
     }
-
 }

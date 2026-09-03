@@ -622,8 +622,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 401d8c205d3960b4b97e557eaf564fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ControlEscenas
-  QueEscena: 
-  EscenaActual: 
 --- !u!4 &1255656458
 Transform:
   m_ObjectHideFlags: 0
@@ -892,6 +890,7 @@ GameObject:
   - component: {fileID: 2087746686}
   - component: {fileID: 2087746685}
   - component: {fileID: 2087746684}
+  - component: {fileID: 2087746687}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: Untagged
@@ -963,10 +962,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1255656457}
+      - m_Target: {fileID: 2087746687}
         m_TargetAssemblyTypeName: ControlEscenas, Assembly-CSharp
-        m_MethodName: CargarEscena
-        m_Mode: 5
+        m_MethodName: CargarEscenaNivel
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1013,6 +1012,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2087746682}
   m_CullTransparentMesh: 1
+--- !u!114 &2087746687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2087746682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 401d8c205d3960b4b97e557eaf564fa3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ControlEscenas
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
