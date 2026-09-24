@@ -6,10 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/escenas/inicio.unity
+    path: Assets/Escenas/inicio.unity
     guid: 63524b14f62b2af4daadb8aa6af8a879
   - enabled: 1
-    path: Assets/escenas/nivel.unity
+    path: Assets/Escenas/nivel.unity
     guid: 78567d581a65a9047a25d9e56601d4a4
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
