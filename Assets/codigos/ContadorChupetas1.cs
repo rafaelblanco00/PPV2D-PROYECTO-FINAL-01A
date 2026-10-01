@@ -64,4 +64,15 @@ public class ContadorChupetas1 : MonoBehaviour
     {
 
     }
+
+    private void OnEnable()
+    {
+        // va a escuchar --> ejecutar un metodo: aumentar contador
+        Eventos.AumentarContadorChupetas1 += AumentarContador;
+    }
+
+    private void OnDisable()
+    {
+        Eventos.AumentarContadorChupetas1 -= AumentarContador;
+    }
 }

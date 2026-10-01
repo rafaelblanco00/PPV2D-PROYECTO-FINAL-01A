@@ -35,6 +35,7 @@ public class RecolectableChupeta1_Controlador : MonoBehaviour
     private void OnDestroy()
     {
         print("Subir +1 en la interfaz");   // informar la interfaz que sume +1 chupeta
-        
+        //Eventos.Chupeta1_Recolectada();   // informando que ha habido una recoleccion
+        Eventos.AumentarContadorChupetas1?.Invoke();
     }
 }

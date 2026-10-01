@@ -1,0 +1,114 @@
+{
+    "name": "MisAccionesDeEntrada",
+    "maps": [
+        {
+            "name": "MiMapaDeAcciones",
+            "id": "dc7c4551-f73d-487a-9aa0-e1544d92f78f",
+            "actions": [
+                {
+                    "name": "CaminarAdelante",
+                    "type": "Button",
+                    "id": "258da517-774a-4e1c-a05b-14ffc8d41816",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "CaminarAtras",
+                    "type": "Button",
+                    "id": "6c630db2-6c62-4196-8bcf-d4d7b80a3555",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Agachar",
+                    "type": "Button",
+                    "id": "3f5f47de-15c3-414c-aa96-07662521e186",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Saltar",
+                    "type": "Button",
+                    "id": "fa7949fe-9d7a-42e5-8dee-86b1fe58db0e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Correr",
+                    "type": "Button",
+                    "id": "69dd0976-4d18-406b-8c7e-acf2f6650088",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a1bacb47-7053-4acd-a4a2-a7e89c3ea7a5",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CaminarAdelante",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "adf74719-5930-4e40-88c3-5f608c4ac01a",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CaminarAtras",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c3d034b5-85ea-4357-b14c-6a1ca087108e",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Agachar",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d68a5f0e-0e15-4b1e-a3f8-2c35a1b0364f",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Saltar",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5fbef3fb-f26d-463e-ac69-70c27daa3438",
+                    "path": "<Keyboard>/h",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Correr",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
