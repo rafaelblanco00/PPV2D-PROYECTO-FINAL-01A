@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Personaje
   - Enemigo
+  - Superficie
   layers:
   - Default
   - TransparentFX
@@ -42,6 +43,57 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Parallax ( -6 )
+    uniqueID: 1127056895
+    locked: 0
+  - name: Parallax ( -5 )
+    uniqueID: 147205941
+    locked: 0
+  - name: Parallax ( -4 )
+    uniqueID: 1640583219
+    locked: 0
+  - name: Parallax ( -3 )
+    uniqueID: 2581529755
+    locked: 0
+  - name: Parallax ( -2 )
+    uniqueID: 2763346523
+    locked: 0
+  - name: Parallax ( -1 )
+    uniqueID: 2748827823
+    locked: 0
+  - name: Parallax ( 0 )
+    uniqueID: 1923331301
+    locked: 0
+  - name: Parallax ( 1 )
+    uniqueID: 3689181877
+    locked: 0
+  - name: Parallax ( 2 )
+    uniqueID: 513618695
+    locked: 0
+  - name: Parallax ( 3 )
+    uniqueID: 1772478823
+    locked: 0
+  - name: Parallax ( 4 )
+    uniqueID: 685078461
+    locked: 0
+  - name: Parallax ( 5 )
+    uniqueID: 788250475
+    locked: 0
+  - name: Parallax ( 6 )
+    uniqueID: 2600764993
+    locked: 0
+  - name: UI 1
+    uniqueID: 610701631
+    locked: 0
+  - name: UI 2
+    uniqueID: 4178146161
+    locked: 0
+  - name: UI 3
+    uniqueID: 133980249
+    locked: 0
+  - name: Bloqueo
+    uniqueID: 2099365625
     locked: 0
   m_RenderingLayers:
   - Default
